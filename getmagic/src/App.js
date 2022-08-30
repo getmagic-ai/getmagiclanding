@@ -1,11 +1,11 @@
-import './App.css';
+import './input.css';
 import HomePage from './components/HomePage';
 
 
 function App() {
   return (
-    <main class="bg-green-300"> 
-      <HomePage />
+    <main>
+       <HomePage />
     </main>
 
   );
