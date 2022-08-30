@@ -4,7 +4,10 @@ import HomePage from './components/HomePage';
 
 function App() {
   return (
-      <HomePage />  
+    <main class="bg-green-300"> 
+      <HomePage />
+    </main>
+
   );
 }
 
