@@ -5,7 +5,7 @@ export default function Card(props) {
 
 
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src={header_image} alt="Get Started" />
+            <img class="w-full" src={props.image} alt="Get Started" />
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Get your UGC career FastTracked!</div>
                     <p class="text-gray-700 text-base">
