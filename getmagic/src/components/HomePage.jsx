@@ -4,11 +4,13 @@ import Card from './Card.jsx'
 import Features from './Features.jsx'
 import logo from './../assets/cardImg2.png'
 import hero from './../assets/creatorHeaderImg.png'
+import Search from './Search.jsx'
 export default function HomePage() {
 
 
     return (
         <div>
+            <Search />
             <Nav />
             <section id="homepagecontainer" class="flex flex-col space-y-60">
 
