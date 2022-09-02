@@ -3,9 +3,9 @@ export default function Search(props) {
     return (
 
     // < !--component -- >
-        <div class="space-x-2 mx-auto w-max relative">
+        <div class="flex flex-row space-x-1">
             <input
-                class="peer bg-yellow-300 h-10 md:h-12 pl-14 text-xl font-semibold text-blue-700 focus:bg-yellow-400 outline-none caret-blue-700"
+            class="border-black bg-gray-100 text-black font-semibold max-h-12 m-4 p-0"
                 type="text"
             />
             <svg
@@ -19,7 +19,7 @@ export default function Search(props) {
             </svg>
 
             <button
-                class="bg-blue-800 hover:bg-blue-900 text-white font-semibold text-lg h-10 md:h-12 px-10 md:px-12"
+                class="bg-gray-200 text-bold text-blue-700 max-h-12 p- items-center"
             >
                 Go
             </button>
