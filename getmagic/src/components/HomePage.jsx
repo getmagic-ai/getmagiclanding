@@ -5,6 +5,7 @@ import Features from './Features.jsx'
 import logo from './../assets/cardImg2.png'
 import hero from './../assets/creatorHeaderImg.png'
 import Search from './Search.jsx'
+import Menu from './Menu.jsx'
 import Input from './Input.jsx'
 export default function HomePage() {
 
@@ -15,6 +16,7 @@ export default function HomePage() {
                
                 <Nav />
                 <Search type="Brands!!" />
+                <Menu />
             </div>
             <section id="homepagecontainer" class="flex flex-col space-y-60">
 
