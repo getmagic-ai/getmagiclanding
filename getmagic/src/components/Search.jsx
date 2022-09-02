@@ -3,10 +3,10 @@ export default function Search(props) {
     return (
 
     // < !--component -- >
-        <div class="flex flex-row space-x-1">
+        <div class="flex flex-row space-x-1 items-center justify-between ml-5 pl-5 pr-5">
             <input
-            class="border-black bg-gray-100 text-black font-semibold max-h-12 m-4 p-0"
-                type="text"
+            class="rounded-3xl bg-gray-100 text-black font-light max-h-14 max-w-lg m-2 p-0"
+                type="text" placeholder={`Search for top ${props.type}!`}
             />
             <svg
                 class="w-5 absolute top-1/2 -translate-y-1/2 left-5 fill-blue-700 peer-focus-within:fill-blue-900"
@@ -19,7 +19,7 @@ export default function Search(props) {
             </svg>
 
             <button
-                class="bg-gray-200 text-bold text-blue-700 max-h-12 p- items-center"
+                class="bg-gray-100 text-bold text-gray-700 max-w-14 max-h-14 ml-5 pl-4 items-center text-right rounded-lg"
             >
                 Go
             </button>

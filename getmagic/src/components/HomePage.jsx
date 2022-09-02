@@ -11,10 +11,10 @@ export default function HomePage() {
 
     return (
         <div>
-            <div class="flex flex-row items-stretch w-full">
+            <div class="flex flex-row align-middle">
                
                 <Nav />
-                <Search />
+                <Search type="Brands!!" />
             </div>
             <section id="homepagecontainer" class="flex flex-col space-y-60">
 
