@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Nav from './Nav.jsx'
 import Card from './Card.jsx'
 import Features from './Features.jsx'
-import logo from './../assets/cardImg2.png'
+import logo from './../assets/newImg.png'
 import hero from './../assets/creatorHeaderImg.png'
 import Search from './Search.jsx'
 import Menu from './Menu.jsx'
@@ -11,22 +11,24 @@ export default function HomePage() {
 
 
     return (
-        <div>
-            <div class="flex flex-row align-middle">
-               
-                <Nav />
-                <Search type="Brands!!" />
-                <Menu />
-            </div>
-            <section id="homepagecontainer" class="flex flex-col space-y-60">
+        <div class="bg-purple-100">
+            <div class="mx-20 bg-yellow-200">
+                <div class="flex bg-red-100 flex-row align-middle">
 
-                <div class="flex flex-row mx-4 mt-4 space-x-50">
-                    <Card image={logo} />
-                    <Features />
+                    <Nav />
+                    <Search type="Brands!!" />
+                    {/* <Menu /> */}
                 </div>
-                <Card class="px-50 mx-10 " image={hero} />
-                <Input />
-            </section>
+                <section id="heroandfeatures" class="bg-blue-200 flex-col-1 space-y-30 align-middle">
+
+                    <div class="flex items-stretch mx-20">
+                        <Card image={logo} />
+                        <Features />
+                    </div>
+                    <Card class="px-50 mx-10 " image={hero} />
+                    <Input />
+                </section>
+            </div>
 
         </div>
 
