@@ -36,7 +36,6 @@ export default function HomePage() {
                 <div class="container h-20 bg-yellow-200 flex flex-row mt-8 justify-center mx-auto" id="footer">
 
                     <Footer />
-
                 </div>
 
             </div>
