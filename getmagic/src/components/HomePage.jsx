@@ -5,9 +5,10 @@ import Features from './Features.jsx'
 import logo from './../assets/newImg.png'
 import hero from './../assets/creatorHeaderImg.png'
 import Search from './Search.jsx'
-import Menu from './Menu.jsx'
+import MenuTest from './MenuTest.jsx'
 import Input from './Input.jsx'
 import Footer from './Footer.jsx'
+import Example from './Tabs.jsx'
 export default function HomePage() {
 
 
@@ -17,7 +18,9 @@ export default function HomePage() {
                 <div class="flex bg-yellow-100 flex-row align-middle">
 
                     <Nav />
+                    <MenuTest menu="Test" />
                     <Search type="Brands!!" />
+                    {/* <Example /> */}//Tabs stuff
                     {/* <Menu /> */}
                 </div>
                 <section id="heroandfeatures" class="bg-blue-200 flex-col space-y-30 align-middle">
